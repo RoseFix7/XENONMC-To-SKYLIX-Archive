@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/Main.ts"],
+  "sourcesContent": ["/**\n * Script entry class\n */\nexport default class Main {\n    /**\n     * Script entry method\n     */\n    public static async start() {\n        console.log('Hello, world!');\n    }\n}\n\nMain.start();\n"],
+  "mappings": ";AAGA,iBAA0B;AAAA,eAIF,QAAQ;AACxB,YAAQ,IAAI,eAAe;AAAA,EAC/B;AACJ;AAEA,KAAK,MAAM;",
+  "names": []
+}

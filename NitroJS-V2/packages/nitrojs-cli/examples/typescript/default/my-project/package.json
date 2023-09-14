@@ -1,0 +1,33 @@
+{
+    "name": "my-project",
+    "version": "1.0.0",
+    "description": "My project",
+    "author": "SkylixGH",
+    "homepage": "https://github.com/SkylixGH/NitroJS#readme",
+    "license": "MIT",
+    "main": "src/Main",
+    "type": "module",
+    "directories": {
+        "src": "src"
+    },
+    "files": [
+        "src"
+    ],
+    "publishConfig": {
+        "access": "restricted"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SkylixGH/NitroJS.git"
+    },
+    "scripts": {
+        "start": "nitrojs dev",
+        "build": "nitrojs build"
+    },
+    "bugs": {
+        "url": "https://github.com/SkylixGH/NitroJS/issues"
+    },
+    "devDependencies": {
+        "@skylixgh/nitrojs-cli": "file:../../../.."
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@skylixgh/nitrojs-desktop-electron",
+  "version": "2.0.0-dev.3",
+  "description": "> TODO: description",
+  "author": "SkylixGH",
+  "homepage": "https://github.com/SkylixGH/NitroJS#readme",
+  "license": "MIT",
+  "main": "./build/src/DesktopElectron.js",
+  "exports": "./build/src/DesktopElectron.js",
+  "type": "module",
+  "directories": {
+    "src": "src",
+    "docs": "docs"
+  },
+  "files": [
+    "src",
+    "docs"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkylixGH/NitroJS.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/SkylixGH/NitroJS/issues"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "electron": "^16.0.8",
+    "electron-is-dev": "^2.0.0",
+    "type-fest": "^2.11.0"
+  }
+}

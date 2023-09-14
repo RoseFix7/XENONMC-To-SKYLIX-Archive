@@ -1,0 +1,47 @@
+{
+	"name": "@skylixgh/nitrojs-terminal",
+	"version": "2.0.0-dev.1",
+	"description": "NitroJS Terminal Module",
+	"author": "Skylix",
+	"homepage": "https://github.com/SkylixGH/NitroJS#readme",
+	"license": "MIT",
+	"main": "./build/src/Terminal.js",
+	"type": "module",
+	"exports": "./build/src/Terminal.js",
+	"types": "./types/src/Terminal.d.ts",
+	"directories": {
+		"src": "src",
+		"docs": "docs",
+		"examples": "examples",
+		"build": "build",
+		"types": "types"
+	},
+	"files": [
+		"src",
+		"docs",
+		"examples",
+		"build",
+		"types"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SkylixGH/NitroJS.git"
+	},
+	"bugs": {
+		"url": "https://github.com/SkylixGH/NitroJS/issues"
+	},
+	"dependencies": {
+		"chalk": "4.1.2",
+		"cli-cursor": "^4.0.0",
+		"luxon": "^2.3.0",
+		"source-map-support": "^0.5.21",
+		"strip-ansi": "^7.0.1"
+	},
+	"devDependencies": {
+		"@types/luxon": "^2.0.9",
+		"type-fest": "^2.9.0"
+	}
+}

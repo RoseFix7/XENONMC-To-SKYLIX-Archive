@@ -1,0 +1,46 @@
+{
+  "name": "@skylixgh/nitrojs-config-tools",
+  "version": "2.0.0-dev.1",
+  "description": "> TODO: description",
+  "author": "XFaonAE <xfaonae@protonmail.com>",
+  "homepage": "https://github.com/SkylixGH/NitroJS#readme",
+  "license": "MIT",
+  "main": "./build/src/ConfigTools.js",
+  "type": "module",
+  "types": "./types/ConfigTools.d.ts",
+  "directories": {
+    "src": "src",
+    "docs": "docs",
+    "examples": "examples",
+    "builds": "build",
+    "types": "types"
+  },
+  "files": [
+    "src",
+    "docs",
+    "examples",
+    "build",
+    "types"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkylixGH/NitroJS.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/SkylixGH/NitroJS/issues"
+  },
+  "dependencies": {
+    "fs-extra": "^10.0.0",
+    "ts-import": "^2.0.40",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13"
+  }
+}

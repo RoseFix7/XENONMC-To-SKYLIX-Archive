@@ -1,0 +1,9 @@
+35 error Error: Command failed with exit code 1: git commit -m v2.0.0-dev.1
+35 error On branch main
+35 error Your branch is up to date with 'origin/main'.
+35 error
+35 error nothing to commit, working tree clean
+35 error     at makeError (C:\Users\26KhanR\Downloads\NitroJS\node_modules\execa\lib\error.js:60:11)
+35 error     at handlePromise (C:\Users\26KhanR\Downloads\NitroJS\node_modules\execa\index.js:118:26)
+35 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+35 error     at async Promise.all (index 0)

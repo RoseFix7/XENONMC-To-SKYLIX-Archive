@@ -1,0 +1,56 @@
+{
+	"name": "@skylixgh/nitrojs-cli",
+	"version": "2.0.0-dev.1",
+	"description": "The NitroJS CLI service",
+	"author": "Skylix",
+	"homepage": "https://github.com/SkylixGH/NitroJS#readme",
+	"license": "MIT",
+	"main": "./build/src/CLIService.js",
+	"type": "module",
+	"types": "./types/src/CLIService.d.ts",
+	"exports": "./build/src/CLIService.js",
+	"bin": {
+		"nitrojs": "./build/bin/Binary.js"
+	},
+	"directories": {
+		"src": "src",
+		"docs": "docs",
+		"build": "build",
+		"bin": "bin",
+		"types": "types"
+	},
+	"files": [
+		"src",
+		"docs",
+		"build",
+		"bin",
+		"types"
+	],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/SkylixGH/NitroJS.git"
+	},
+	"bugs": {
+		"url": "https://github.com/SkylixGH/NitroJS/issues"
+	},
+	"devDependencies": {
+		"@types/ini": "^1.3.31",
+		"@types/semver": "^7.3.9",
+		"type-fest": "^2.10.0"
+	},
+	"dependencies": {
+		"@skylixgh/nitrojs-config-tools": "^2.0.0-dev.1",
+		"@skylixgh/nitrojs-terminal": "^2.0.0-dev.1",
+		"@types/fs-extra": "^9.0.13",
+		"commander": "^8.3.0",
+		"deepmerge": "^4.2.2",
+		"fs-extra": "^10.0.0",
+		"ini": "^2.0.0",
+		"semver": "^7.3.5",
+		"source-map-support": "^0.5.21",
+		"terser": "^5.10.0"
+	}
+}
