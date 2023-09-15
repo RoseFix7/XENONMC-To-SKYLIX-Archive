@@ -1,8 +1,8 @@
 {
-    "name": "hello_world",
+    "name": "hello_worl",
     "version": "1.0.0",
-    "description": "some very cool project",
-    "author": "Rayyan Khan",
+    "description": "asdasdasd",
+    "author": "R",
     "homepage": "https://github.com/RoseFix7/XENONMC-To-SKYLIX-Archive#readme",
     "license": "MIT",
     "main": "src/Main",
@@ -31,6 +31,7 @@
         "@skylixgh/nitrojs-cli": "1.0.0-dev.1"
     },
     "dependencies": {
-        "@skylixgh/nitrojs-terminal": "2.0.0-dev.3"
+        "@skylixgh/nitrojs-terminal": "2.0.0-dev.3",
+        "@skylixgh/nitrojs-config-tools": "2.0.0-dev.3"
     }
 }

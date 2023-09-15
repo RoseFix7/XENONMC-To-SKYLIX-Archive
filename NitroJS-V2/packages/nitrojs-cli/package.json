@@ -6,7 +6,6 @@
 	"homepage": "https://github.com/SkylixGH/NitroJS#readme",
 	"license": "MIT",
 	"main": "./build/src/CLI.js",
-	"type": "module",
 	"types": "./types/src/CLI.d.ts",
 	"exports": "./build/src/CLI.js",
 	"bin": {
@@ -42,7 +41,7 @@
 		"type-fest": "^2.10.0"
 	},
 	"dependencies": {
-		"@skylixgh/nitrojs-terminal": "2.0.0-dev.3",
+		"@skylixgh/nitrojs-terminal": "file",
 		"@types/fs-extra": "^9.0.13",
 		"chokidar": "^3.5.3",
 		"commander": "^8.3.0",

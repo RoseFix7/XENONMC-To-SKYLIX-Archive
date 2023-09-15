@@ -7,7 +7,7 @@
 	"license": "MIT",
 	"main": "./build/src/Terminal.js",
 	"type": "module",
-	"exports": "./build/src/Terminal.js",
+	"exports": "./src/Terminal.ts",
 	"types": "./types/src/Terminal.d.ts",
 	"directories": {
 		"src": "src",
