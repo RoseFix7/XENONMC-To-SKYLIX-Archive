@@ -1,23 +1,22 @@
-const esbuild = import("esbuild");
+const esbuild = require("esbuild");
 const fs = require("fs");
 const path = require("path");
-const c_p = require("child_process");
 
-const packages = fs.readdirSync(path.join(__dirname, "../packages"));
-console.log("Detected Packages: [Building Correctly]");
-packages.forEach((package) => {
-    console.log(`-- ${package}`);
+if (!fs.existsSync(path.join(__dirname, "../test/scratch.ts"))) {
+    console.error("[ERROR] Missing test/scratch.ts source");
+    process.exit(1);
+}
+
+esbuild.build({
+    outfile: path.join(__dirname, "../test/scratch.js"),
+    entryPoints: [path.join(__dirname, "../test/scratch.ts")],
+    bundle: true,
+    platform: "node",
 });
-console.log("");
-console.log("Building all packages");
 
-packages.forEach((package) => {
-    console.log("");
-    console.log(`-- Started compiling '${package}'`);
-
-    const result = esbuild.buildSync({
-        
-    });
-
-    console.log(`-- Finished compiling '${package}'`);
+esbuild.build({
+    outfile: path.join(__dirname, "../packages/nitrojs-cli/build/bin/Binary.js"),
+    entryPoints: [path.join(__dirname, "../packages/nitrojs-cli/bin/Binary.ts")],
+    bundle: true,
+    platform: "node",
 });

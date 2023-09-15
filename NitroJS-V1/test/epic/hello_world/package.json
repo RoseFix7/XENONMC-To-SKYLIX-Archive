@@ -1,0 +1,36 @@
+{
+    "name": "hello_world",
+    "version": "1.0.0",
+    "description": "some very cool project",
+    "author": "Rayyan Khan",
+    "homepage": "https://github.com/RoseFix7/XENONMC-To-SKYLIX-Archive#readme",
+    "license": "MIT",
+    "main": "src/Main",
+    "type": "module",
+    "directories": {
+        "src": "src"
+    },
+    "files": [
+        "src"
+    ],
+    "publishConfig": {
+        "access": "restricted"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RoseFix7/XENONMC-To-SKYLIX-Archive.git"
+    },
+    "scripts": {
+        "start": "nitrojs dev",
+        "build": "nitrojs build"
+    },
+    "bugs": {
+        "url": "https://github.com/RoseFix7/XENONMC-To-SKYLIX-Archive/issues"
+    },
+    "depDependencies": {
+        "@skylixgh/nitrojs-cli": "1.0.0-dev.1"
+    },
+    "dependencies": {
+        "@skylixgh/nitrojs-terminal": "2.0.0-dev.3"
+    }
+}
