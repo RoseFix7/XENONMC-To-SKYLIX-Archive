@@ -1,0 +1,33 @@
+{
+	"name": "@illuxdev/oxide-desktop-gui",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/Exports.js",
+	"scripts": {
+		"watch": "tsc --watch",
+		"install:examples:basic-app": "cd examples/BasicApp && npm i && cd ../../",
+		"postinstall": "npm run install:examples:basic-app"
+	},
+	"author": {
+		"name": "ILLUX",
+		"url": "https://illux.dev",
+		"email": "support@illux.dev"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"@types/merge-deep": "^3.0.0",
+		"@types/node": "^17.0.0",
+		"@types/react": "^17.0.37",
+		"typescript": "^4.5.3"
+	},
+	"dependencies": {
+		"@electron/remote": "^2.0.1",
+		"@iconify/icons-fluent": "^1.1.33",
+		"@iconify/react": "^3.1.0",
+		"@illuxdev/oxide-desktop-cli": "file:../desktop-cli",
+		"deepmerge": "^4.2.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"sass": "^1.45.0"
+	}
+}
