@@ -1,0 +1,14 @@
+{
+	"name": "cli",
+	"version": "1.0.0",
+	"private": true,
+	"main": "./build/main.node.mjs",
+	"type": "module",
+	"keywords": [
+		"server",
+		"app"
+	],
+	"description": "This is a server app",
+	"dependencies": {},
+	"devDependencies": {}
+}

@@ -1,0 +1,29 @@
+{
+	"name": "desk",
+	"version": "1.0.0",
+	"private": true,
+	"main": "./build/main.electron.cjs",
+	"keywords": [
+		"desktop",
+		"app"
+	],
+	"description": "This is a desktop app",
+	"build": {
+		"appId": "net.skylix.desktop",
+		"productName": "My Desktop App",
+		"copyright": "Copyright © 2023 SkylixGH"
+	},
+	"dependencies": {
+		"@nexts-stack/desktop": "../../../packages/desktop",
+		"@nexts-stack/desktop-uix": "../../../packages/desktop-uix",
+		"react-dom": "latest",
+		"react": "latest",
+		"electron": "^17.1.1",
+		"sass": "^1.49.9",
+		"postcss-scss": "^4.0.3"
+	},
+	"devDependencies": {
+		"@types/react-dom": "latest",
+		"@types/react": "latest"
+	}
+}

@@ -1,0 +1,10 @@
+# Compiled Files
+**/*/build/
+
+# Lock Cache
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Node Modules
+node_modules

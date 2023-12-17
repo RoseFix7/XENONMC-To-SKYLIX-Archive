@@ -1,0 +1,14 @@
+{
+	"name": "my-ext",
+	"version": "1.0.0",
+	"author": "SkylixGH",
+	"main": "plugin.ts",
+	"exports": {
+		"require": "./build/dist.commonjs.cjs",
+		"import": "./build/dist.esm.mjs"
+	},
+	"types": "./build/types/plugin.d.ts",
+	"dependencies": {
+		"@nexts-stack/desktop-plugin": "../../../packages/desktop-plugin"
+	}
+}
